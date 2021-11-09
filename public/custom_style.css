@@ -1,0 +1,63 @@
+.background {
+    background: linear-gradient(
+        116.3deg,
+        #ff7a00 -1.32%,
+        #ff009f 45.54%,
+        #6f00fd 80.78%,
+        #0047ff 117.15%
+    );
+}
+
+.box1 {
+    position: absolute;
+    width: 1045px;
+    height: 760px;
+    left: 198px;
+    top: 132px;
+
+    background: rgba(187, 192, 240, 0.6);
+    background-blend-mode: soft-light;
+    border-radius: 30px;
+
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.box2 {
+    position: absolute;
+    width: 933px;
+    height: 637px;
+    left: 53px;
+    top: 66px;
+
+    background: #fefefe;
+    mix-blend-mode: normal;
+    opacity: 0.85;
+    border-radius: 30px;
+}
+
+.img-dlw {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 380px;
+    top: 50px;
+
+    /* background: url(hdwl2021.png); */
+    mix-blend-mode: normal;
+    opacity: 100%;
+    border-radius: 200px;
+}
+
+.cus-text {
+    position: absolute;
+
+    left: 340px;
+    top: 265px;
+}
