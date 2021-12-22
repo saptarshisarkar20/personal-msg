@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family:  sans-serif;
+    font-family: sans-serif;
 }
 
 header {
@@ -15,10 +15,10 @@ header {
     align-items: center;
     text-align: center;
     min-height: 100vh;
-    background-image: url("../img/celebration.jpg");
+    background-image: url("../img/celebration.jpg") ;
     background-size: cover;
     background-position: center;
-    position: relative;
+    background-repeat: repeat-x;
 }
 header:after {
     display: block;
