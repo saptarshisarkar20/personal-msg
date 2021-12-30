@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "build-css":"tailwindcss build src/style.css -o public/style.css"
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
   },
   "dependencies": {
+    "js-confetti": "^0.10.2",
     "tailwindcss": "^2.2.19"
   }
 }
