@@ -76,20 +76,50 @@ button{
 }
 
 .text-heading-name{
-    font-size: 4.2rem;
+    font-size: 4rem;
     width: 100%;
-    overflow: scroll;
+    /* overflow: scroll; */
     scrollbar-width: none;
     color: crimson;
-    outline: #333;
+    /* outline: 1px solid #333; */
+    -webkit-text-stroke: 1px rgb(73, 1, 1);
 }
 
 .text-heading-primary::-webkit-scrollbar{
     width: 0px;
 }
 .text-normal{
-    font-size: 1.1rem;
+    font-size: 2.1rem;
     width: 95%;
+    font-weight: 300;
+}
+
+.text-emoji{
+    font-size: 1.5rem;
+    width: 95%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-style: oblique; */
+}
+
+.text-trt{
+    font-size: 1.9rem;
+    width: 95%;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-mundu{
+    font-size: 1.5rem;
+    width: 95%;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text-face{
+    font-size: 20rem;
+    width: 95%;
+    font-weight: bold;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 
 .logo{
@@ -131,6 +161,9 @@ button{
     }
     .text-heading-primary{
         font-size: 2.5rem;
+    }
+    .text-face{
+        font-size: 8rem;
     }
 }
 
