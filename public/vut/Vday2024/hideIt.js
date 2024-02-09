@@ -27,7 +27,7 @@ hideFirst();
 let flag = 0;
 
 // Setup End Date for Countdown (getTime == Time in Milleseconds)
-let launchDate = new Date("Feb 10, 2024 01:53:00").getTime();
+let launchDate = new Date("Feb 14, 2024 00:00:00").getTime();
 
 // Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
